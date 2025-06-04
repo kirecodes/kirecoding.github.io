@@ -3,21 +3,7 @@ title: kirenia.me
 tagline: software developer
 description: under construction
 
-# Google Analytics ID
-google_analytics:
-
-# GitHub Values
-github:
-  owner_name: Dracula
-  owner_url: https://github.com/dracula
-  repository_url: https://github.com/dracula/gh-pages
-
-show_downloads: true
-show_header: true
 remote_theme: "dracula/gh-pages"
 
 sass:
     style: compressed
-
-plugins:
-  - jekyll-seo-tag
