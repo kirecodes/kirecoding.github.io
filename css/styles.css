@@ -1,13 +1,12 @@
 :root {
 	--dark: #23283d;
 	--light: #ffffff;
-	--accent: #c7773d;
-	--link-hover: #3b82f6;
+	--hover: #3b82f6;
 }
 
 html,
 body {
-	height: 100%;
+	height: 95%;
 	margin: 0;
 }
 
@@ -20,7 +19,6 @@ body {
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
 }
 
 main {
@@ -32,6 +30,10 @@ h1 {
 	font-weight: 600;
 	font-size: 1.5rem;
 	margin-bottom: 0.5rem;
+}
+
+h2 {
+	margin-bottom: 1rem;
 }
 
 p {
@@ -56,7 +58,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: var(--accent);
+	color: var(--hover);
 }
 
 #links {
@@ -64,13 +66,11 @@ a:hover {
 }
 
 footer {
-	font-size: 1rem;
-	margin-top: 4rem;
+	font-size: 0.9rem;
 	color: #888;
 }
 
 footer a {
-	color: var(--link-hover);
 	text-decoration: none;
 }
 
