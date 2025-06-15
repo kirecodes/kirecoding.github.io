@@ -1,0 +1,40 @@
+:root {
+	--dark: #23283d;
+	--light: #ffffff;
+	--accent: #c7773d;
+}
+
+body {
+	background-color: var(--light);
+	color: var(--dark);
+	font-family: "IBM Plex Sans", sans-serif;
+	padding: 3rem;
+	line-height: 1.6;
+	max-width: 400px;
+}
+
+h1 {
+	text-transform: lowercase;
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	font-size: 1rem;
+	max-width: 40rem;
+}
+
+a {
+	text-decoration: und;
+	color: var(--dark);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: var(--accent);
+}
+
+#links {
+	margin-top: 2rem;
+}
