@@ -1,9 +1,0 @@
-# SEO Values
-title: kire pollina
-tagline: software developer
-description: under construction
-
-remote_theme: "dracula/gh-pages"
-
-sass:
-    style: compressed
